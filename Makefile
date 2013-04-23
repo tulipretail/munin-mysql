@@ -1,7 +1,7 @@
 ### Configuration
 
 CONFIG_DIR:=/etc/munin
-PLUGIN_DIR:=/usr/local/share/munin/plugins
+PLUGIN_DIR:=/usr/share/munin/plugins
 MUNIN_NODE:=/etc/init.d/munin-node
 PERL_SITELIB_DIR:=$(shell perl '-V:installsitelib'|cut -d"'" -f2)
 
